@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Distributed-Search:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8bcd35c-99f3-44c8-a866-59f81c3c8bd0" name="Changes" comment="Working as Strings, no json, problem in coordinator address">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebSide/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebSide/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebSide/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebSide/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebSide/ClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebSide/ClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebSide/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebSide/WebServer.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2alzLRJERmY1shFTTsZBezTaHit" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "jdk.selected.JAVA_MODULE": "17 (2)",
+    "last_opened_file_path": "D:/HIAST/FIY/FS/Distributed Systems/Lab/8/Distributed-Search",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HIAST\FIY\FS\Distributed Systems\Lab\8\Distributed-Search" />
+      <recent name="D:\HIAST\FIY\FS\Distributed Systems\Lab\8\Distributed-Search\src\main\java\WebSide" />
+      <recent name="D:\HIAST\FIY\FS\Distributed Systems\Lab\8\Distributed-Search\src\main\java" />
+      <recent name="D:\HIAST\FIY\FS\Distributed Systems\Lab\8\Distributed-Search\src\main\java\GRPC" />
+      <recent name="D:\HIAST\FIY\FS\Distributed Systems\Lab\8\Distributed-Search\src\main\java\GRPC\GRPCConnection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HIAST\FIY\FS\Distributed Systems\Lab\8\Distributed-Search\src\main\proto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SearchWebApp.WebServer" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn cl" />
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WebServer">
+    <configuration name="Node1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.AutoHealerAndClusterSearch.AutoHealerAndClusterSearch.Application" />
+      <module name="Distributed-Search" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.AutoHealerAndClusterSearch.AutoHealerAndClusterSearch.Application" />
+      <module name="Distributed-Search" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.AutoHealerAndClusterSearch.AutoHealerAndClusterSearch.Application" />
+      <module name="Distributed-Search" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.AutoHealerAndClusterSearch.AutoHealerAndClusterSearch.Application" />
+      <module name="Distributed-Search" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="WebSide.ClientApplication" />
+      <module name="Distributed-Search" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="WebSide.WebServer" />
+      <module name="Distributed-Search" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WebServer" />
+      <item itemvalue="Application.WebClient" />
+      <item itemvalue="Application.Node1" />
+      <item itemvalue="Application.Node4" />
+      <item itemvalue="Application.Node2" />
+      <item itemvalue="Application.Node3" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\M_Salameh\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8bcd35c-99f3-44c8-a866-59f81c3c8bd0" name="Changes" comment="" />
+      <created>1704907897408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704907897408</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working as Strings, no json, problem in coordinator address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working as Strings, no json, problem in coordinator address" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Distributed_Search$WebClient.ic" NAME="WebClient Coverage Results" MODIFIED="1706784197993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

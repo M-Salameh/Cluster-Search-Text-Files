@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Page</title>
+    <script>
+        function search() {
+            var query = document.getElementById('searchInput').value;
+            fetch('/search', {
+                method: 'POST',
+                body: JSON.stringify({ query: query }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                var results = document.getElementById('results');
+                results.innerHTML = '';
+                data.files.forEach(file => {
+                    var listItem = document.createElement('li');
+                    listItem.textContent = file;
+                    results.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+<h1>Search Page</h1>
+<input type="text" id="searchInput" style="padding:10px ; width:500px">
+<button onclick="search()" style="padding:10px ; width:150px">Search</button>
+<ul id="results"></ul>
+</body>
+</html>
